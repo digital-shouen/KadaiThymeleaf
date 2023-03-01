@@ -9,7 +9,7 @@
     <h1>入力画面</h1>
     <p>値を入力してください。</p>
     
-    <p th:if="${previous} neq null" th:text="'入力された値は「' + ${previous} + '」です。'"></p>
+    <p th:if="${previous} neq null" th:text="'入力された値は「' + ${previous} + '」でした。'"></p>
     
     <form method="post" action="/output">
     <input type="text" name="val">
